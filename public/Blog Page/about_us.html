@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Blog Page</title>
+    <style>
+        /* CSS styles embedded within the HTML */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+            background-color: #f3f4f6;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+            flex: 1; /* Grow to fill remaining space */
+        }
+
+        .blog-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .header-nav {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .header-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-nav ul li {
+            margin-right: 20px;
+        }
+
+        .header-nav ul li a {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .header-nav ul li a:hover {
+            color: #4caf50;
+        }
+
+        .about-section {
+            max-width: 800px;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .about-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .about-content {
+            line-height: 1.6;
+            color: #333333;
+        }
+
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto; /* Push the footer to the bottom */
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="main-content">
+        <!--Header and Navigation-->
+        <header>
+            <div class="blog-title">Blog Page</div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login_page.html">Login</a></li>
+                    <li><a href="rgister.html" class = "text-gray-600 hover:text-gray-900">Register Now</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--About Us Section-->
+        <section class="about-section">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-content">
+                Welcome to Our Organic Farming Blog
+
+                Explore the world of sustainable agriculture and organic farming with us. At Blog Page, we're passionate about promoting healthier ecosystems, supporting local farmers, and bringing you the latest insights into organic farming practices. Whether you're a seasoned farmer, a gardening enthusiast, or simply curious about where your food comes from, join us as we delve into topics such as soil health, permaculture, sustainable pest management, and more.
+            </p>
+            <p class="about-content">
+                Stay tuned for regular updates, expert interviews, and in-depth guides that celebrate the beauty and benefits of organic farming. Join our community of like-minded individuals who share a commitment to preserving our environment while enjoying the fruits of nature's bounty.
+            </p>
+        </section>
+    </div>
+    
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2024 Blog Page. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
